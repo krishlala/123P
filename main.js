@@ -1,4 +1,3 @@
-name = document.getElementById("name").value;
 noseX=0;
 noseY=0;
 difference = 0;
@@ -20,7 +19,7 @@ function draw() {
     background('#ADD8E6');
     textSize(difference);
     fill("#22E496");
-    text(name, 50, 400);
+    text("Krish", 50, 400);
 }
 
 function modelLoaded() {
@@ -40,9 +39,4 @@ function gotPoses(results) {
         console.log("leftWrist = " + leftWristX + "rightWristX" + rightWristX + "difference = " + difference);
 
     }
-}
-
-
-function name() {
-    draw();
 }
