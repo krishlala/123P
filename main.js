@@ -41,3 +41,8 @@ function gotPoses(results) {
 
     }
 }
+
+
+function name() {
+    draw();
+}
