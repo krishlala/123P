@@ -15,8 +15,8 @@ function setup() {
 }
 
 function draw() {
-    document.getElementById("square_side").innerHTML = "Width and Height of the square is = " + difference + "px";
     background('#ADD8E6');
+    
     textSize(difference);
     fill("#22E496");
     text("Krish", 50, 400);
